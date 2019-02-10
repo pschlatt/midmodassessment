@@ -3,11 +3,10 @@ attr_reader :name,
             :age,
             :salary
 
-def initialize(name:, age:, salary:)
-  @salary = salary
-  @age = age
-  @name = name
-end
-
+  def initialize(name:, age:, salary:)
+    @salary = salary
+    @age = age
+    @name = name
+  end
 
 end
